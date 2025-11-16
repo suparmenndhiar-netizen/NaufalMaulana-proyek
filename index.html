@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Naufal Maulana</title>
+  <link rel="stylesheet" href="STYLE.css">
+</head>
+
+<body>
+
+  <!-- NAV PANEL -->
+  <nav class="panel">
+    <div class="panel-inner">
+      <a class="panel-link" href="#tentang">Tentang Saya</a>
+      <a class="panel-link" href="#pendidikan">Pendidikan</a>
+      <a class="panel-link" href="#proyek">Proyek</a>
+      <a class="panel-link" href="#galeri">Galeri</a>
+      <a class="panel-link" href="#kontak">Kontak</a>
+      <a class="panel-link" href="#quotes">Quotes</a>
+    </div>
+  </nav>
+
+  <!-- TOP HEADER -->
+  <header class="top-nav">
+    <div>AMAZING PROJECT↗</div>
+    <div class="name">NAUFAL M</div>
+    <div>● ● ●</div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="cols">
+        <div class="c c1"></div>
+        <div class="c c2"></div>
+        <div class="c c3"></div>
+      </div>
+
+      <h1 class="title">
+        NAUFALMAULANA<br>TUGASPROYEK<br>XI<br>C'ventra
+      </h1>
+
+      <img src="photo.png" class="photo">
+
+      <div class="right-text">
+        <p>
+          “Setiap proyek selalu punya tantangannya sendiri. Di balik halaman ini,
+          ada cukup banyak bagian yang membuatnya harus mengulang, memperbaiki,
+          dan berpikir keras sampai semuanya terasa pas. Kadang memang bikin pusing, tapi proses itulah yang membuat hasil akhirnya lebih berarti. Sedikit demi sedikit
+          , dari revisi ke revisi, akirnya semuanya bisa tersusun rapi seperti yang diharapkan”
+        </p>
+      </div>
+
+      <div class="left-text">
+        <button>Let’s talk →</button>
+      </div>
+
+      <div class="badge">67</div>
+    </section>
+
+    <!-- TENTANG -->
+    <section id="tentang">
+      <h2>Tentang Saya</h2>
+      <div class="about-container">
+        <p>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Nama saya Naufal Maulana, saya mudah bergaul dan senang bertemu dengan orang baru. Di tengah aktivitas sehari-hari, 
+          saya selalu menyempatkan diri untuk berolahraga serta membaca novel sebagai cara untuk menjaga keseimbangan antara 
+          fisik dan pikiran. Selain itu, saya juga dikenal sebagai pribadi yang cukup sering tertawa. Saat ini, tujuan terbesar 
+          saya adalah menjadi pribadi yang lebih pintar dan terus berkembang dari waktu ke waktu. Setiap pengalaman baru adalah 
+          kesempatan untuk memperbaiki diri.
+        </p>
+      </div>
+    </section>
+
+    <!-- PENDIDIKAN -->
+    <section id="pendidikan">
+      <h2>Pendidikan</h2>
+      <div class="edu-container">
+        <div class="edu-card">SDN PA'BUNDUKANG</div>
+        <div class="edu-card">MTsS HIDAYATULLAH YOGYAKARTA</div>
+        <div class="edu-card">MAN IC GOWA</div>
+      </div>
+    </section>
+
+    <!-- PROJECT -->
+    <section id="project" class="section projects">
+      <h2>Project</h2>
+
+      <div class="grid project-grid">
+        <article class="project-card">
+          <img src="PROJECT 1.png" alt="">
+          <h3>form Data Pemain</h3>
+        </article>
+
+        <article class="project-card">
+          <img src="PROJECT 2.png" alt="">
+          <h3>DFD Lvl 0</h3>
+        </article>
+
+        <article class="project-card">
+          <img src="PROJECT 3.JPG" alt="">
+          <h3>Kerja Taman</h3>
+        </article>
+      </div>
+    </section>
+
+    <!-- GALERI -->
+    <section id="galeri">
+      <h2>Galeri</h2>
+    </section>
+
+    <div class="masonry">
+      <img src="digicamfx-pg2016-2025-10-29T07-44-32.jpg">
+      <img src="234.jpg">
+      <img src="KECE.jpg">
+      <img src="jumbo well.JPG">
+      <img src="9876.jpg">
+      <img src="DC.jpg">
+      <img src="DSC00739.JPG">
+      <img src="2.jpg">
+      <img src="AAAAAAAA.JPG">
+      <img src="ANJJ.jpg">
+      <img src="33.jpg">
+      <img src="KASU.JPG">
+      <img src="WhatsApp Image 2025-09-25 at 21.42.34_72ad7a93.jpg">
+    </div>
+
+    <!-- KONTAK -->
+    <section id="kontak">
+      <h2 class="judul-kontak">Kontak</h2>
+
+      <div class="kontak-wrapper">
+        <a href="https://instagram.com/naufal.ziec" target="_blank" class="kontak-btn">Instagram</a>
+        <a href="https://wa.me/6282138751713" target="_blank" class="kontak-btn">WhatsApp</a>
+        <a href="https://www.tiktok.com/@optimum_be" target="_blank" class="kontak-btn">TikTok</a>
+      </div>
+    </section>
+
+    <!-- QUOTES -->
+    <section id="quotes">
+      <h2 class="quotes-title">Quotes</h2>
+
+      <div class="quotes-card" id="quotesCard">
+        <p class="quote-text" id="quoteText"></p>
+        <p class="quote-author" id="quoteAuthor"></p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Naufal Maulana</p>
+    <ul>
+      <li>Website dibuat untuk tugas proyek</li>
+      <li>Dibuat oleh Naufal Maulana</li>
+    </ul>
+  </footer>
+
+  <!-- SCRIPT -->
+  <script>
+    const quotes = [
+      { text: "Saya tidak punya mimpi, saya punya rencana", author: "Harvey Specter" },
+      { text: "We can't skip the hard part because it's gonna help us grow", author: "man" },
+      { text: "Hati manusia persis seperti lautan, penuh misteri", author: "Sri Ningsih" },
+      { text: "Tidak semua di dunia ini dinilai menurut versimu", author: "Bahar" },
+      { text: "Daun yang jatuh tak pernah membenci angin", author: "Tere Liye" },
+      { text: "Tidak masalah mundur satu-dua langkah agar bisa maju seribu langkah", author: "Master Batozar" },
+      { text: "Orang-orang yang bahagia adalah orang yang bangga atas proses belajar itu", author: "Rasa (Tere Liye)" },
+      { text: "Waktu adalah sumber daya penting", author: "Tere Liye" },
+      { text: "Jika kita gagal 1000 kali maka pastikan kita bangkit 1001 kali", author: "Tentang Kamu (Tere Liye)" },
+      { text: "sejatinya, banyak momen berharga dalam hidup datang dari hal-hal kecil yang luput kita perhatikan, karena kita terlalu sibuk mengurus sebaliknya", author: "Zaman" },
+      { text: "Sesibuk apapun kita tataplah bantu orang lain", author: "Pak Ikky" },
+    ];
+
+    const quoteText = document.getElementById("quoteText");
+    const quoteAuthor = document.getElementById("quoteAuthor");
+    const card = document.getElementById("quotesCard");
+
+    let index = 0;
+
+    function showQuote() {
+      card.style.opacity = 0;
+      setTimeout(() => {
+        quoteText.textContent = `"${quotes[index].text}"`;
+        quoteAuthor.textContent = `— ${quotes[index].author}`;
+        card.style.opacity = 1;
+      }, 400);
+    }
+
+    showQuote();
+
+    setInterval(() => {
+      index = (index + 1) % quotes.length;
+      showQuote();
+    }, 5000);
+  </script>
+
+</body>
+</html>
